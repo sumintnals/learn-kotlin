@@ -1,0 +1,59 @@
+변수
+- 변경 가능한 변수
+    - var(variable, 변수)
+- 변경 불가능한 변수
+    - val (value, 값)
+
+선언 방법
+ var/var 이름
+ - var school
+ - val school
+ - 변수 이름 작명 = 네이밍
+
+ 할당 방법
+ var/val 이름 = 값
+ - school = "대한민국 학교"
+ - var/val school "대한민국 학교" -> 선언과 할당을 동시에 할 수 있음(코틀린은 선언과 할당 동시에 해야 함)
+
+ 암묵적인 규칙
+ val 선언할 때는 대문자로
+ - val SCHOOL = "학교"
+ var 선언할 떄는 소문자로
+ - var phoneNumber = "010-1111-1111"
+
+ 코딩 컨벤션 (변수만큼은 코딩 컨벤션에 맞게)
+ https://kotlinlang.org/docs/coding-conventions.thml#interface-implementation-layout
+
+ 두 개의 단어를 합쳐서 네이밍
+ -> 카멜케이스 표기법(변수)
+ -대소문자를 반복
+ - phoneNumber
+ -> 스네이크 표기법(상수)
+ - _
+ - phone_number
+ - val PHONE_NUMBER = "010-1111-1111" (카멜케이스로 사용 불가하니까!)
+
+ 자동정렬
+ - 단축키로 사용하자
+
+ 변수 네이밍이 중요한 이유
+ - 가독성 향상의 가장 좋은 방법
+    - 코드가 길어질수록 변수의 이름으로 어떤 것인지 파악하는 경우가 많기 때문
+
+ var abc = (수학+영어+국어)/3
+ abc
+ abc = 70
+ abc
+ ...
+ ...
+1년뒤: abc가뭔데!!!!!!!!!!!
+
+=> var test_average = (수학+영어+국어)/3
+test_average
+test_average = 70
+test_average
+...
+...
+1년뒤: 음~ 평균점수구나
+
+습관을 들입시다.
