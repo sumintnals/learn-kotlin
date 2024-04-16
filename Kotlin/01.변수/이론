@@ -25,10 +25,10 @@
  https://kotlinlang.org/docs/coding-conventions.thml#interface-implementation-layout
 
  두 개의 단어를 합쳐서 네이밍
- -> 카멜케이스 표기법(변수)
+ -> 카멜케이스 표기법(var)
  -대소문자를 반복
  - phoneNumber
- -> 스네이크 표기법(상수)
+ -> 스네이크 표기법(val)
  - _
  - phone_number
  - val PHONE_NUMBER = "010-1111-1111" (카멜케이스로 사용 불가하니까!)
