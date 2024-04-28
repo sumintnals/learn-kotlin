@@ -107,24 +107,3 @@ println(user7.name)
 
 // 주생성자가 없으므로 위임 안해도 됨
 // 주생성자는 코틀린이 자동으로 생성해줌
-
-class Test(var a: Int = 1, var b: Int = 2) {
-    get() {
-        println("이것은 a?")
-        return field
-    }
-    set(value) {
-        println("이것은 a?")
-        field = value
-    }
-
-    get() {
-        println("이것은 b?")
-        return field
-    }
-    set(value) {
-        println("이것은 b?")
-        field = value
-    }
-} // 하면 오류가 뜬다...
-
