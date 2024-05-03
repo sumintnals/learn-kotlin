@@ -1,0 +1,19 @@
+// 형변환(Type Casting)
+// Type
+- 자료형, 클래스
+Casting
+- 다른 자료형으로 변환
+- 무조건 가능한 것이 아님
+    123 -> "123"
+    123.5 -> 124
+- 기본 자료형간의 변환은 암기하는 것이 아니라 칠요한 순간에 확인하고 진행.
+- 클래스
+val worrior : Warrior = Warrior()
+    - 클래스도 자료형
+- 상속 클래스간의 자료형
+    슈퍼클래스(Warrior), 자식클래스(DefenseWarrior)
+    DefenseWarrior is Warrior (D)
+    HardAttackWarrior is Warrior (D)
+    Warrior is DefenseWarrior (X)
+    Warrior is HardAttackWarrior (X)
+    

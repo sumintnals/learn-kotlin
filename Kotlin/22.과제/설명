@@ -1,0 +1,14 @@
+1. Warrior, Knight, Monster 체력, 공격력, 방어력, 셍존 여부
+2. Knight hardAttack(), energy 3 소모
+3. Warrior는 monster 특정 수 처치하면 Knight로 레벨 업 가능
+
+예시
+Monster 생성
+Monster 아직 살아 있습니다. 체력: 50
+Warrior가 공격합니다
+Monster 아직 살아 있습니다. 체력: 41
+Monster 공격합니다
+Warrior는 죽었습니다.
+Warrior는 죽었습니다.
+
+4. Warrior가 레벨업 하는 반복문 작성
